@@ -23,7 +23,7 @@ def show_thanks(name):
 
 @app.route('/quest/<quest_id>') # <quest_id> is the number of the quest
 def quest(quest_id):
-    return render_template(f'/quests/quest.html', quest_question = "What is your name?", quest_id = quest_id)
+    return render_template(f'/quests/quest.html', quest_question = "Is 2023 even?", quest_id = quest_id)
 
 if __name__ == '__main__':
     app.run(debug=True)

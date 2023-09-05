@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-md mx-auto bg-white rounded p-4 shadow-lg">
+        <h1 class="text-2xl font-semibold mb-4">Sample Form</h1>
+        <form action="/submit_login_info" method="post">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-600">Name:</label>
+                <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-md">
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
